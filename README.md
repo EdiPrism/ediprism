@@ -57,11 +57,17 @@ Built for healthcare (`837P`/`837I`/`837D`, `835`, `270`/`271`, `276`/`277`, `83
 
 ---
 
+## Sister Plugin in the EdiPrism Air-Gapped Suite
+
+- **[EbcdicPrism Copybook Viewer](https://ediprism.github.io/cobol/):** 100% offline mainframe `COBOL Copybook` (`.cpy`) byte-offset calculator, `EBCDIC` / `COMP-3` / `Zoned Decimal` record overlay decoder, `S0C7` validator, semantic binary diff, and `PCI-DSS` binary PAN scrubber ([GitHub Docs & Issues](https://github.com/EdiPrism/ebcdicprism)).
+
+---
+
 ## Legal, Privacy & Support
 
-- **Privacy & Air-Gapped Security Attestation:** [PRIVACY.md](./PRIVACY.md)
-- **End-User License Agreement (EULA):** [EULA.md](./EULA.md)
+- **Privacy & Air-Gapped Security Attestation:** [PRIVACY.md](./PRIVACY.md) • [ediprism.github.io/privacy.html](https://ediprism.github.io/privacy.html)
+- **End-User License Agreement (EULA):** [EULA.md](./EULA.md) • [ediprism.github.io/eula.html](https://ediprism.github.io/eula.html)
 - **Release Notes:** [CHANGELOG.md](./CHANGELOG.md)
-- **Bug Reports & Feature Requests:** [GitHub Issues](https://github.com/EdiPrism/ediprism/issues)
+- **Bug Reports & Feature Requests:** [GitHub Issues](https://github.com/EdiPrism/ediprism/issues) • [Support Hub](https://ediprism.github.io/support.html)
 
 *X12 is a registered trademark of X12 Incorporated. EdiPrism is an independent clean-room developer tool derived from public-domain US Federal specifications (`17 U.S.C. § 105`) and public UNECE directories, and is not affiliated with, endorsed by, or sponsored by X12 Incorporated or UNECE.*

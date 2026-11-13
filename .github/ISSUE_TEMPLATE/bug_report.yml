@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report an ASC X12 / UN/EDIFACT parsing, loop tree, balancing, 999 pinpointer, or UI issue
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **HIPAA PHI / PII / NDA Safety Warning:** **NEVER** paste or upload live patient PHI (`837`/`835`/`271`/`834`), SSNs, member IDs, or un-scrubbed production payloads into public GitHub issues. Use synthetic EDI snippets or run **Scrub HIPAA / PII Test Fixture** first.
+  - type: dropdown
+    id: ide
+    attributes:
+      label: JetBrains IDE
+      options:
+        - IntelliJ IDEA (Unified / Community / Ultimate)
+        - PyCharm
+        - DataGrip
+        - Rider
+        - GoLand
+        - WebStorm
+        - Other JetBrains IDE
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: IDE Version & EdiPrism Version
+      placeholder: "e.g., PyCharm 2025.3.2 • EdiPrism v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Steps to Reproduce & Synthetic EDI Snippet
+      placeholder: |
+        ST*837*0001*005010X222A1~
+        CLM*SYNTH01*150.00***11:B:1*Y*A*Y*Y~
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior
+    validations:
+      required: true

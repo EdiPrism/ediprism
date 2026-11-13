@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: EdiPrism X12 & EDIFACT Engineering Portal
+    url: https://ediprism.github.io/docs/
+    about: Search 50+ X12, EDIFACT, 999 IK3/IK4, 835 CARC, and HIPAA Safe Harbor reference guides.
+  - name: EdiPrism Enterprise Support & Licensing Hub
+    url: https://ediprism.github.io/support.html
+    about: Licensing, JetBrains Marketplace Organization seats, corporate POs, and air-gapped compliance inquiries.
