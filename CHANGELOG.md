@@ -13,6 +13,8 @@ All notable changes to **EdiPrism X12 EDIFACT** are documented in this file.
   - Collapses multi-line `X12` & `EDIFACT` transactions and business loops (`2000A/B/C`, `2300`, `2400`, `2100`, `PO1`, `SG2`, `SG25`) in the editor gutter, adds live `Path:` breadcrumbs in the `Loops` tab, and toggles non-mutating end-of-line loop/amount badges.
 - **Git-Shared `.ediprism` Trading-Partner Schemas (`[Pro]`):**
   - Automatically discovers repository `.ediprism/partner-schema.{xml,json}` (or `.ediprism.{xml,json}`) walking up to the project root and merges partner validation rules into the `Validate` tab across all team seats.
+- **Air-Gap-Safe Feedback Menu & Sanitized Crash Diagnostics (`?` ToolWindow Header & `IDE Fatal Errors`):**
+  - Adds a zero-socket `?` Feedback & Support action on the `EdiPrism` ToolWindow header bar (`Report Bug`, `Suggest Feature`, and `Copy Air-Gapped Diagnostic Template`) plus a native IntelliJ `<errorHandler>` that redacts local file paths and raw exception messages so HIPAA PHI can never leak into a diagnostic report.
 
 ## [1.0.0] - 2026-11-11
 
